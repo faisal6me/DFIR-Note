@@ -20,3 +20,4 @@ Active Directory is a type of domain, and a domain controller is an important se
 
 6-Fileshare server : becouse it face public network 
 
+![](https://www.vmray.com/analyses/rtf-doc-cve-exploit-analysis/report/process_graph.svg)
