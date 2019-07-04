@@ -2,7 +2,7 @@
 This Is just My Personal Note For Fast-IR
 
 
-What Is the Most Tragtet Servers By the Adversy and Why :
+What are the Most Tragted Servers By the Adversy and Why :
 
 1-SCCM is a platform that allows for an enterprise to package and deploy operating systems, software, and software updates.If you can gain access to SCCM, it makes for a great attack platform. It heavily integrates Windows PowerShell, has excellent network visibility, and has a number of SCCM clients as SYSTEM just waiting to execute your code as SYSTEM.
 
