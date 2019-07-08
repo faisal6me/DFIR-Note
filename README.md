@@ -117,7 +117,7 @@ This is the process of restoring and returning affected systems and devices back
 > Note: There are Two types of Malware File Malware and Fileless Malware.
 
 1. What to look for:
-
+* Determine if the system had antivirus (AV) installed, and if so, locate and examine the logs.
 * Programs executing from temporary or cache folders
 * Programs executing from user profiles (AppData, Roaming, Local, etc)
 * Programs executing from C:\ProgramData or All Users profile
