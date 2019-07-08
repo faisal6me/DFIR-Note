@@ -136,6 +136,12 @@ This is the process of restoring and returning affected systems and devices back
 * Examine the Auto-start Locations
 * Examine Host Based Logs for Activity of Interest
 * Examine File System Artifacts (Amcahs shicash , Userjun,Powershell Logs etc..)
+
+3. Task Used In fidelis : 
+* WinPrefetchView 
+* RegRipper
+* AnalyzeMFT
+* MUI Cache registry key 
  
  
  **General Best Practices Applicable To CA or IR:**
@@ -172,6 +178,6 @@ This is the process of restoring and returning affected systems and devices back
  ```
 
 
-- [x] Finish my changes
+- [x] Finish my changes (Creat A script to filtter System32 files)
 - [ ] Push my commits to GitHub
 - [ ] Ready to Engage 
