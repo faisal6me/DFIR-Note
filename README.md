@@ -84,6 +84,7 @@ This is the process of restoring and returning affected systems and devices back
 
 
 **Incedent Response For Webshell**
+
 1- **"${eval($_POST[potato])}};?>"**
 
 2-One method of detection is to review web logs for suspicious GET requests. 
