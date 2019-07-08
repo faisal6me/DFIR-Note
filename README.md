@@ -100,11 +100,11 @@ This is the process of restoring and returning affected systems and devices back
 
 **Applyed All CA or IR**
 ```
-- Detect persistence in VDI environments by searching file shares containing user profiles for all .lnk files.
-- Detect evasion techniques by the threat actors by identifying deleted logs. This can be done by reviewing last-seen entries and by searching for event 104 on Windows system logs.
-- Detect persistence by reviewing all administrator accounts on systems to identify unauthorized accounts, especially those created recently.
-- Detect the malicious use of legitimate credentials by reviewing the access times of remotely accessible systems for all users. Any unusual login times should be reviewed by the account owners.
-- Detect the malicious use of legitimate credentials by validating all remote desktop and VPN sessions of any user’s credentials suspected to be compromised.
+-Detect persistence in VDI environments by searching file shares containing user profiles for all .lnk files.
+-Detect evasion techniques by the threat actors by identifying deleted logs. This can be done by reviewing last-seen entries and by searching for event 104 on Windows system logs.
+-Detect persistence by reviewing all administrator accounts on systems to identify unauthorized accounts, especially those created recently.
+-Detect the malicious use of legitimate credentials by reviewing the access times of remotely accessible systems for all users. Any unusual login times should be reviewed by the account owners.
+-Detect the malicious use of legitimate credentials by validating all remote desktop and VPN sessions of any user’s credentials suspected to be compromised.
 -Detect spear-phishing by searching OWA logs for all IP addresses listed in the IOC packages.
 -Detect spear-phishing through a network by validating all new email accounts created on mail servers, especially those with external user access.
 -Detect persistence on servers by searching system logs for all filenames listed in the IOC packages.
