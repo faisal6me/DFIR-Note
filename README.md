@@ -98,7 +98,7 @@ This is the process of restoring and returning affected systems and devices back
 
 5- intrusion detection system/ intrusion prevention system logs,application logs, IIS/Apache logs, PCAP repositories, firewall logs, and reverse proxy logs.
 
-**Applyed All CA or IR**
+**More Deep Analysis:! *
 ```
 -Detect persistence in VDI environments by searching file shares containing user profiles for all .lnk files.
 -Detect evasion techniques by the threat actors by identifying deleted logs. This can be done by reviewing last-seen entries and by searching for event 104 on Windows system logs.
@@ -118,7 +118,7 @@ This is the process of restoring and returning affected systems and devices back
 
  
  
- **General Best Practices Applicable to this Campaign:**
+ **General Best Practices Applicable To CA or IR:**
  
  ```
 -Prevent external communication of all versions of SMB and related protocols at the network boundary by blocking TCP ports 139 and 445 with related UDP port 137. See the NCCIC/US-CERT publication on SMB Security Best Practices for more information.
