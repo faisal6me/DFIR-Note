@@ -21,3 +21,65 @@ Active Directory is a type of domain, and a domain controller is an important se
 6-Fileshare server : becouse it face public network 
 
 ![](https://www.vmray.com/analyses/rtf-doc-cve-exploit-analysis/report/process_graph.svg)
+
+**The 6 steps Of IR**
+
+1. Preparation
+This phase will be the work horse of your incident response planning, and in the end, the most crucial phase to protect your business. Part of this phase includes:
+
+Develop incident response drill scenarios and regularly conduct mock data breaches to evaluate your incident response plan.
+Ensure that all aspects of your incident response plan (training, execution, hardware and software resources, etc.) are 
+
+Does the Incident Response Team know their roles and the required notifications to make?
+
+
+
+2. Identification
+This is the process where you determine whether you’ve been breached. A breach, or incident, could originate from many different areas.
+
+ Questions to address 
+When did the event happen?
+How was it discovered?
+Who discovered it?
+Have any other areas been impacted?
+What is the scope of the compromise?
+Does it affect operations?
+Has the source (point of entry) of the event been discovered?
+
+
+
+3. Containment
+When a breach is first discovered, your initial instinct may be to securely delete everything so you can just get rid of it. However, that will likely hurt you in the long run since you’ll be destroying valuable evidence that you need to determine where the breach started and devise a plan to prevent it from happening again.
+
+Instead, contain the breach so it doesn’t spread and cause further damage to your business. If you can, disconnect affected devices from the Internet. Have short-term and long-term containment strategies ready. It’s also good to have a redundant system back-up to help restore business operations. That way, any compromised data isn’t lost forever.
+
+This is also a good time to update and patch your systems, review your remote access protocols (requiring mandatory multi-factor authentication), change all user and administrative access credentials and harden all passwords.
+
+WATCH: Forensics Lessons Learned Webinar
+
+ Questions to address 
+What’s been done to contain the breach short term?
+What’s been done to contain the breach long term?
+Has any discovered malware been quarantined from the rest of the environment?
+What sort of backups are in place?
+Does your remote access require true multi-factor authentication?
+Have all access credentials been reviewed for legitimacy, hardened and changed?
+Have you applied all recent security patches and updates?
+
+
+
+4. Eradication
+Once you’ve contained the issue, you need to find and eliminate the root cause of the breach. This means all malware should be securely removed, systems should again be hardened and patched, and updates should be applied.
+
+Whether you do this yourself, or hire a third party to do it, you need to be thorough. If any trace of malware or security issues remain in your systems, you may still be losing valuable data, and your liability could increase.
+
+ Questions to address 
+Have artifacts/malware from the attacker been securely removed?
+Has the system be hardened, patched, and updates applied?
+Can the system be re-imaged?
+
+
+5. Recovery
+This is the process of restoring and returning affected systems and devices back into your business environment. During this time, it’s important to get your systems and business operations up and running again without the fear of another breach.
+
+
