@@ -116,7 +116,7 @@ This is the process of restoring and returning affected systems and devices back
 **Incedent Response For Malware**
 > Note: There are Two types of Malware File Malware and Fileless Malware.
 
-A. What to look for:
+1. What to look for:
 
 * Programs executing from temporary or cache folders
 * Programs executing from user profiles (AppData, Roaming, Local, etc)
@@ -127,6 +127,15 @@ A. What to look for:
 * Windows programs located in wrong folders (i.e. C:\Windows\svchost.exe)
 * Other activity on the system around suspicious files
 
+2. Steps to Perfroms during The engagmnet :
+
+* Examine the System’s Volatile Data (Mem Dump)
+* Examine on Disk Any Identified Files
+* Conduct Scans for Known Malicious Code)(Yara)
+* Examine the Programs Ran on the System
+* Examine the Auto-start Locations
+* Examine Host Based Logs for Activity of Interest
+* Examine File System Artifacts (Amcahs shicash , Userjun,Powershell Logs etc..)
  
  
  **General Best Practices Applicable To CA or IR:**
