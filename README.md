@@ -119,6 +119,8 @@ This is the process of restoring and returning affected systems and devices back
  
  
  **General Best Practices Applicable to this Campaign:**
+ 
+ ```
 -Prevent external communication of all versions of SMB and related protocols at the network boundary by blocking TCP ports 139 and 445 with related UDP port 137. See the NCCIC/US-CERT publication on SMB Security Best Practices for more information.
 -Block the Web-based Distributed Authoring and Versioning (WebDAV) protocol on border gateway devices on the network.
 -Monitor VPN logs for abnormal activity (e.g., off-hour logins, unauthorized IP address logins, and multiple concurrent logins).
@@ -147,6 +149,5 @@ This is the process of restoring and returning affected systems and devices back
 -Complete independent security (as opposed to compliance) risk review.
 -Create and participate in information sharing programs.
 -Create and maintain network and system documentation to aid in timely incident response. Documentation should include network diagrams, asset owners, type of asset, and an incident response plan.
- 
-  
+ ```
 
