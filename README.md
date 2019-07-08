@@ -99,6 +99,7 @@ This is the process of restoring and returning affected systems and devices back
 5- intrusion detection system/ intrusion prevention system logs,application logs, IIS/Apache logs, PCAP repositories, firewall logs, and reverse proxy logs.
 
 **Applyed All CA or IR**
+'''
 -Detect persistence in VDI environments by searching file shares containing user profiles for all .lnk files.
 -Detect evasion techniques by the threat actors by identifying deleted logs. This can be done by reviewing last-seen entries and by searching for event 104 on Windows system logs.
 -Detect persistence by reviewing all administrator accounts on systems to identify unauthorized accounts, especially those created recently.
@@ -111,7 +112,7 @@ This is the process of restoring and returning affected systems and devices back
 -Detect persistence by reviewing all installed applications on critical systems for unauthorized applications, specifically note FortiClient VPN and Python 2.7.
 -Detect persistence by searching for the value of “REG_DWORD 100” at registry location “HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal”. Services\MaxInstanceCount” and the value of “REG_DWORD 1” at location “HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\dontdisplaylastusername”.
 -Detect installation by searching all proxy logs for downloads from URIs without domain names.
-
+'''
 **Incedent Response For Malware**
 
 
