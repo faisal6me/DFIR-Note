@@ -98,10 +98,54 @@ This is the process of restoring and returning affected systems and devices back
 
 5- intrusion detection system/ intrusion prevention system logs,application logs, IIS/Apache logs, PCAP repositories, firewall logs, and reverse proxy logs.
 
+**Applyed All CA or IR**
+-Detect persistence in VDI environments by searching file shares containing user profiles for all .lnk files.
+-Detect evasion techniques by the threat actors by identifying deleted logs. This can be done by reviewing last-seen entries and by searching for event 104 on Windows system logs.
+-Detect persistence by reviewing all administrator accounts on systems to identify unauthorized accounts, especially those created recently.
+-Detect the malicious use of legitimate credentials by reviewing the access times of remotely accessible systems for all users. Any unusual login times should be reviewed by the account owners.
+-Detect the malicious use of legitimate credentials by validating all remote desktop and VPN sessions of any user’s credentials suspected to be compromised.
+-Detect spear-phishing by searching OWA logs for all IP addresses listed in the IOC packages.
+-Detect spear-phishing through a network by validating all new email accounts created on mail servers, especially those with external user access.
+-Detect persistence on servers by searching system logs for all filenames listed in the IOC packages.
+-Detect lateral movement and privilege escalation by searching PowerShell logs for all filenames ending in “.ps1” contained in the IOC packages. (Note: requires PowerShell version 5, and PowerShell logging must be enabled prior to the activity.)
+-Detect persistence by reviewing all installed applications on critical systems for unauthorized applications, specifically note FortiClient VPN and Python 2.7.
+-Detect persistence by searching for the value of “REG_DWORD 100” at registry location “HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal”. Services\MaxInstanceCount” and the value of “REG_DWORD 1” at location “HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\dontdisplaylastusername”.
+-Detect installation by searching all proxy logs for downloads from URIs without domain names.
+
 **Incedent Response For Malware**
 
 
  
+ 
+ **General Best Practices Applicable to this Campaign:**
+-Prevent external communication of all versions of SMB and related protocols at the network boundary by blocking TCP ports 139 and 445 with related UDP port 137. See the NCCIC/US-CERT publication on SMB Security Best Practices for more information.
+-Block the Web-based Distributed Authoring and Versioning (WebDAV) protocol on border gateway devices on the network.
+-Monitor VPN logs for abnormal activity (e.g., off-hour logins, unauthorized IP address logins, and multiple concurrent logins).
+-Deploy web and email filters on the network. Configure these devices to scan for known bad domain names, sources, and addresses; block these before receiving and downloading messages. This action will help to reduce the attack surface at the network’s first level of defense. Scan all emails, attachments, and downloads (both on the host and at the mail gateway) with a reputable anti-virus solution that includes cloud reputation services.
+-Segment any critical networks or control systems from business systems and networks according to industry best practices.
+-Ensure adequate logging and visibility on ingress and egress points.
+-Ensure the use of PowerShell version 5, with enhanced logging enabled. Older versions of PowerShell do not provide adequate -logging of the PowerShell commands an attacker may have executed. Enable PowerShell module logging, script block logging, and transcription. Send the associated logs to a centralized log repository for monitoring and analysis. See the FireEye blog post Greater Visibility through PowerShell Logging for more information.
+-Implement the prevention, detection, and mitigation strategies outlined in the NCCIC/US-CERT Alert TA15-314A – Compromised Web Servers and Web Shells – Threat Awareness and Guidance.
+-Establish a training mechanism to inform end users on proper email and web usage, highlighting current information and analysis, and including common indicators of phishing. End users should have clear instructions on how to report unusual or suspicious emails.
+-Implement application directory whitelisting. System administrators may implement application or application directory whitelisting through Microsoft Software Restriction Policy, AppLocker, or similar software. Safe defaults allow applications to run from PROGRAMFILES, PROGRAMFILES(X86), SYSTEM32, and any ICS software folders. All other locations should be disallowed unless an exception is granted.
+-Block RDP connections originating from untrusted external addresses unless an exception exists; routinely review exceptions on a regular basis for validity.
+-Store system logs of mission critical systems for at least one year within a security information event management tool.
+-Ensure applications are configured to log the proper level of detail for an incident response investigation.
+-Consider implementing HIPS or other controls to prevent unauthorized code execution.
+-Establish least-privilege controls.
+-Reduce the number of Active Directory domain and enterprise administrator accounts.
+-Based on the suspected level of compromise, reset all user, administrator, and service account credentials across all local and domain systems.
+-Establish a password policy to require complex passwords for all users.
+-Ensure that accounts for network administration do not have external connectivity.
+-Ensure that network administrators use non-privileged accounts for email and Internet access.
+-Use two-factor authentication for all authentication, with special emphasis on any external-facing interfaces and high-risk environments (e.g., remote access, privileged access, and access to sensitive data).
+-Implement a process for logging and auditing activities conducted by privileged accounts.
+-Enable logging and alerting on privilege escalations and role changes.
+-Periodically conduct searches of publically available information to ensure no sensitive information has been disclosed. ---Review photographs and documents for sensitive data that may have inadvertently been included.
+-Assign sufficient personnel to review logs, including records of alerts.
+-Complete independent security (as opposed to compliance) risk review.
+-Create and participate in information sharing programs.
+-Create and maintain network and system documentation to aid in timely incident response. Documentation should include network diagrams, asset owners, type of asset, and an incident response plan.
  
   
 
