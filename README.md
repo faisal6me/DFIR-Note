@@ -114,8 +114,10 @@ This is the process of restoring and returning affected systems and devices back
 -Detect installation by searching all proxy logs for downloads from URIs without domain names.
 ```
 **Incedent Response For Malware**
-> Note: There are Two types of Malware File Malware and Fileless Malware.
+> Note: There are Two types of Malware File Malware and Fileless Malware.>
+
 • What to look for:
+
 o Programs executing from temporary or cache folders
 o Programs executing from user profiles (AppData, Roaming, Local, etc)
 o Programs executing from C:\ProgramData or All Users profile
