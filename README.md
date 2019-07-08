@@ -114,7 +114,16 @@ This is the process of restoring and returning affected systems and devices back
 -Detect installation by searching all proxy logs for downloads from URIs without domain names.
 ```
 **Incedent Response For Malware**
-
+> Note: There are Two types of Malware File Malware and Fileless Malware.
+• What to look for:
+o Programs executing from temporary or cache folders
+o Programs executing from user profiles (AppData, Roaming, Local, etc)
+o Programs executing from C:\ProgramData or All Users profile
+o Programs executing from C:\RECYLER
+o Programs stored as Alternate Data Streams (i.e. C:\Windows\System32:svchost.exe)
+o Programs with random and unusual file names
+o Windows programs located in wrong folders (i.e. C:\Windows\svchost.exe)
+o Other activity on the system around suspicious files
 
  
  
