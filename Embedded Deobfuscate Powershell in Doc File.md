@@ -14,7 +14,7 @@ Start : https://www.hybrid-analysis.com/sample/9a43186e72bde764614b092b55d4dfba0
                                                
 
 
-#### Now we need to  de-obfuscate the command using cyberchef as follow : 
+#### Now we need to  de-obfuscate the command using cyberchef as follow :rocket:  : 
 + Using replace| find Function to clean the code from (^) 
 
 + We notice there are SET for a verivble called (9ojB) we select that veribale and see we can find ! 
