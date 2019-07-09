@@ -4,7 +4,7 @@
 Start : https://www.hybrid-analysis.com/sample/9a43186e72bde764614b092b55d4dfba00f528c5f0d45e6ccb56dcee8763a845?environmentId=100 
 
 ![1](https://user-images.githubusercontent.com/29158503/60865490-d0fdcc80-a22e-11e9-8114-827ce5233897.png)
-                                                 Figure(1)
+ inline style: ![logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png)
 
 
 #### After Downloading the sample let go to Cyberchef to analyze the Malicious cmd.exe command present on Hyperd analysis
