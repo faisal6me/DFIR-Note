@@ -1,16 +1,4 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
- @faisal6me 
-@shanselman shanselman/profile.json
-Created last month • 
-14
-1
- Code  Revisions 1  Stars 14  Forks 1
- 
-<script src="https://gist.github.com/shanselman/5e27afbd5f213974b2fc63b082f2df4c.js"></script>
+
   
  profile.json
 {
@@ -410,42 +398,4 @@ Created last month •
         }
     ]
 }
- @theabraxas
-theabraxas commented 19 days ago
-Seen any issues where the terminal prefix ligature things in WSL are on top of the cursor so that the first character typed is behind the prompt? Basically the cursor seems to be too far to the left on the console?
-
- @shanselman
-Owner Author
- shanselman commented 19 days ago
- Ya, I've seen that a few times. Try other fonts, but also please file a bug
-with screenshot on the Microsoft Terminal Github!
---
-Scott Hanselman
-@shanselman <http://twitter.com/shanselman> - Podcast:
-https://hanselminutes.com/shows
-…
- @theabraxas
- theabraxas commented 19 days ago
- Will do, thanks!
-
-On Thu, Jun 27, 2019, 1:45 PM Scott Hanselman <notifications@github.com>
-wrote:
-…
- @faisal6me
  
- 
-Leave a comment
-
-Attach files by dragging & dropping, selecting or pasting them.
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
