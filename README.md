@@ -183,6 +183,13 @@ This is the process of restoring and returning affected systems and devices back
 - [ ] Ready to Engage 
 
 
+
+
+
+
 How to Find the Webshell name in EDR soultion : 
 
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\ef75a556\6377ae4e\App_Web_35rwg0yz.dll > this (app_web) is statick and it follow random number in which it created by the webshell | alsp look for file section in EDR when you notice (w3wp.exe open a cmd.exe? ) 
+
+Citrix Netscaler CVE-2019-19781 "Shodan"
+http.waf:"Citrix NetScaler" country:"SA"
