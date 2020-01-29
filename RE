@@ -19,6 +19,18 @@ returns a snapshot. Process32First retrieves information about the first process
 used in a loop to iterate through them. After finding the target process, the malware gets the handle of the target process
 by calling OpenProcess.
 
+The PE file header :
+.text:contains instruction that CPU execute
+.rdate: contains the import and export function(same Dependency walker  !) 
+.idate: if present, it stored the import function. if not present you can find them in .rdata
+.edate: if present, it stored export function. if not present you can find them in .rdata
+.data: stored global variable 
+.rsrc: stored resources used by an executable that is not considered part of it: such as logo image and strings 
+
+
+Using PEview: the most intersting infomation come from the section header, which are in IMAGE_SECTION_HEADER in whcih it decripe each section
+of PE file. 
+
 
 
 
