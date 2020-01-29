@@ -1,0 +1,10 @@
+Typically DLL can export function to use by an executable,On the other hand, EXE is not designed to export any function
+(it so rare). If you fund an EXE export a function(In Dependency walker) then you have to check.
+
+If there is a (WSock32.dll or Ws_32.dll) in the exutable it mean (the EXE is accsessing the network or (C2C))
+
+
+
+
+
+
