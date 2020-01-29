@@ -4,6 +4,24 @@ Typically DLL can export function to use by an executable,On the other hand, EXE
 If there is a (WSock32.dll or Ws_32.dll) in the exutable it mean (the EXE is accsessing the network or (C2C))
 
 
+Pro Tips (If you run string command on EXE and few string shows ) this measn the EXE is packed or obfuscatedbut dont warry threr are some tool
+can unpacked the EXE if not then run it Dynamically 
+
+
+Pro Tips: If the EXE has a function Called (CreatProcessA) it basically tells us the EXE will probably create another process
+(Watch out additional process when running it)
+
+
+Injection Malware: The malware first needs to target a process for injection (e.g. svchost.exe). This is usually done by searching through 
+processes by calling a trio of Application Program Interfaces (APIs): CreateToolhelp32Snapshot, Process32First, and Process32Next.
+CreateToolhelp32Snapshot is an API used for enumerating heap or module states of a specified process or all processes, and it
+returns a snapshot. Process32First retrieves information about the first process in the snapshot, and then Process32Next is
+used in a loop to iterate through them. After finding the target process, the malware gets the handle of the target process
+by calling OpenProcess.
+
+
+
+
 
 
 
